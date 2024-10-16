@@ -13,4 +13,3 @@ Promise.any([fetchPromise11, fetchPromise21, fetchPromise31])
   .catch((error: any) => {
       console.error(`Failed to fetch: ${error}`);
   });
-  
